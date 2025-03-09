@@ -1,0 +1,57 @@
+.test {
+    border: solid #000;
+}
+
+.titulo_productos_tendencia {
+    font-size: 30px;
+}
+
+
+.imagen_productos_tendencia {
+    width: 150px;
+}
+
+.section_burger {
+    background-color: #f68105;
+}
+
+.imagen_product {
+    width: 200px;
+}
+
+.card-subtitle {
+font-size: 20px;
+width: 150px;
+}
+
+.card-text {
+font-size: 18px;
+width: 150px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+   .imagen_productos_tendencia {
+    width: 160px;
+   }
+   .imagen_product {
+    width: 150px;
+   }
+   .card_products {
+    width: 150px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+    .imagen_productos_tendencia {
+        width: 150px;
+    }
+
+
+}
+    
