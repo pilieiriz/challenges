@@ -4,6 +4,7 @@
 
 .titulo_productos_tendencia {
     font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -19,39 +20,82 @@
     width: 200px;
 }
 
-.card-subtitle {
-font-size: 20px;
-width: 150px;
+.title_product {
+    font-size: 18px;
+
 }
 
-.card-text {
-font-size: 18px;
-width: 150px;
+.subtitle_product {
+    font-size: 16px;
+
 }
 
+.title_historia {
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px
+}
 
+.subtitle_historia {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 24px;
 
+}
+
+.text_historia {
+    color: #ffff;
+    font-size: 16px;
+    text-align: start;
+}
 
 
 
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-   .imagen_productos_tendencia {
-    width: 160px;
-   }
-   .imagen_product {
-    width: 150px;
-   }
-   .card_products {
-    width: 150px;
-   }
+    .imagen_productos_tendencia {
+        width: 160px;
+    }
+
+    .imagen_product {
+        width: 150px;
+    }
+
+    .card_products {
+        min-height: 300px;
+    }
+
+    .subtitle_historia {
+        font-size: 30px;
+    
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .imagen_productos_tendencia {
         width: 150px;
     }
-
-
-}
+    .subtitle_historia {
+        font-size: 34px;
     
+    }
+    .titulo_productos_tendencia {
+        font-size: 40px; }
+
+        .card_products {
+            width: 400px;
+            max-height: 350px;
+        }
+
+       .card_img {
+        width: 250px;
+        max-height: 200px;
+       }
+
+
+       .text_historia {
+        text-align: justify;
+       }
+}
+
+
